@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url('pic/background.jpg');
+    background-size: cover;
+}
+
+nav {
+    background-color: #333;
+    padding: 50px;
+    opacity: 0.8;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: flex-end; /* จัดให้ลิงก์ชิดขวา */
+}
+
+.nav-wrapper a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #123;   
+}
