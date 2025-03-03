@@ -1,0 +1,1 @@
+console.log('Hello, Terraform Lab!');
